@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/beltranbot/go-testing/stringutils"
+	"github.com/beltranbot/go-testing/services"
 )
 
 func main() {
-	fmt.Println(stringutils.IsPalindrome("anitalavalatina"))
-
+	fmt.Println(services.StringsService.IsPalindrome("anitalavalatina"))
 }
